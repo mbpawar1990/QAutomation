@@ -1,0 +1,16 @@
+class  NonStaticVar
+{
+	int a;
+	static int b=30;
+	public static void main(String[] args) 
+	{
+		System.out.println("value of b without calling classname="+b);//static var called in static method
+		System.out.println("value of b with classname="+NonStaticVar.b);//static var called using classname
+		NonStaticVar A=new NonStaticVar();//object creation for called instance var
+		A.a=A.a+10;
+		System.out.println("instance variable a using object name="+A.a);
+		NonStaticVar B=new NonStaticVar();
+		System.out.println("instance variable a using object name in B="+B.a);
+
+	}
+}

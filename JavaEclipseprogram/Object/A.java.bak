@@ -1,0 +1,13 @@
+class A 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("In main Method called other function");
+		A a1=new A();
+		a1.Disp();
+	}
+	public void Disp()
+	{
+		System.out.println("User Defined Function......");
+	}
+}

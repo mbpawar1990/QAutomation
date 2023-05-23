@@ -1,0 +1,14 @@
+class addition 
+{
+	public static void main(String[] args) 
+	{
+		int a=20;
+		int b=30;
+		int c=a+b;
+		/*System.out.println(a+b);
+		System.out.println("Addition="+c);
+		*/
+		System.out.println("Addition of first number"+a+ "\t"+ "Second number "+b+"is ="+c);
+
+	}
+}

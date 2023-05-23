@@ -1,0 +1,12 @@
+class Example5
+  
+{
+	public static void main(String[] args) 
+	{
+		int a;
+		a=50;
+		//System.out.println(a);
+		//System.out.println("Value of a=" +a);
+		System.out.println("Pune"+20+"hi"+30+20);
+	}
+}
